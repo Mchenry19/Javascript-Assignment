@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tailwind-component{
+    width:80%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border-radius: 2rem;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 5rem 4rem 5rem 4rem;
+    column-gap: 4rem;
+}
+.top-button-container{
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+} 
+
+.top-left-contain{
+    max-width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.travel-bag-cotainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+}
+
+.travel-container{
+    width: fit-content;
+    height: auto;
+}
+
+.travel-container h4{
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    color: #858585;
+    font-weight: 400;
+    line-height: 2.4rem;   
+}
+
+.travel-icon-container{
+    width: 1.5rem;
+    min-height: 1.5rem;
+}
+
+.icon-divide{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #858585;
+}
+
+.bag-container{
+    width: fit-content;
+    height: auto;
+}
+
+.bag-container h4{
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    color: #858585;
+    font-weight: 400;
+    line-height: 2.4rem;   
+}
+
+.everyday-container{
+    width: fit-content;
+    height: auto;
+}
+
+.everyday-container h5{
+    width: fit-content;
+    height: auto;
+    font-size: 2.25rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: #333;
+}
+
+.dollar-star-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.price-container{
+    width: fit-content;
+    height: auto;
+}
+
+.price-container p{
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+.star-icon-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.star-container{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.star-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.reviews-container{
+    width: fit-content;
+    height: auto;
+}
+
+.reviews-container p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #858585;
+}
+
+.discription-container{
+    width: fit-content;
+    height: auto;
+}
+
+.discription-container p{
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #858585;
+}
+
+.check-icon-and-stock-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    column-gap: 0.9rem;
+}
+
+.check-icon-container{
+    width: 1.5rem;
+    height: 1.5rem;
+    column-gap: 0.5rem;
+}
+
+.check-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.stock-container{
+    width: fit-content;
+    height: auto;
+}
+
+.stock-container p{
+    width: fit-content;
+    height: auto;
+    color: #858585;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+
+.botton-left-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.size-top-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.size-container{
+    width: fit-content;
+    height: auto;
+}
+
+.size-container p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #858585;
+}
+
+.eighteen-twenty-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.eighteen-container{
+    max-width: 50%;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.blue{
+    border: 2px solid blue;
+}
+
+.one-eight-container{
+    width: fit-content;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.one-eight-container p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+.one-eight-description-container{
+    width: fit-content;
+    height: auto;
+}
+
+.one-eight-description-container p{
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    color: #858585;
+}
+
+.what-size-and-icon-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.what{
+    width: fit-content;
+    height: auto;
+}
+
+.what a{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: #858585;
+    text-decoration: none;
+}
+
+.icon-container{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.help-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.button-and-protect-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 600;
+    padding:2rem;
+    background-color: blue;
+    color: white;
+}
+
+.icon-and-lifetime-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.icon-protect-container{
+    width: 1rem;
+    height: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.right-container{
+    width: 50%;
+    height: auto;
+}
+
+.right-image-container{
+    width: 100%;
+    height: auto;
+}
+
+.bag-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
